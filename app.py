@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-openai_api_key="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"
+openai_api_key="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"
 
 llm = ChatOpenAI(temperature=0, openai_api_key=openai_api_key, model_name='gpt-3.5-turbo')
 
